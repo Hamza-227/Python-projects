@@ -15,3 +15,4 @@ contents = os.listdir(directory_path)
 
 # Print the contents of the directory 
 print(contents)
+#hamza
