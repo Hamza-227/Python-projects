@@ -1,9 +1,9 @@
 # Method no 1 : Simple qr code without specifing any color or border of QR.
-# import qrcode as qr
-# import qrcode.console_scripts
-# import qrcode.constants
-# image = qr.make("https://chatgpt.com/") # Link or Sentence which QR has to be made
-# image.save("Chatgpt.png")
+import qrcode as qr
+import qrcode.console_scripts
+import qrcode.constants
+image = qr.make("https://chatgpt.com/") # Link or Sentence which QR has to be made
+image.save("Chatgpt.png")
 
 # # Method no 2 : Customize qr code with customize any color or border of QR.
 import qrcode
